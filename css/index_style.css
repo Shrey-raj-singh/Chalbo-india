@@ -89,6 +89,7 @@ ul {
     padding: 1% 0.1%;
     transition: width 0.5s;
 }
+
 .navbar .nav_list:hover {
     width: 38%;
 }
@@ -141,6 +142,7 @@ ul {
     width: 100%;
     left: 0px;
 }
+
 #intro .container0 {
     min-height: 100px;
     margin-top: 120px;
@@ -166,6 +168,7 @@ ul {
     top: 0px;
     left: 0px;
 }
+
 #intro .container01 {
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +176,7 @@ ul {
     width: 100%;
     height: auto;
     margin-top: 300px;
-    z-index: 2;    
+    z-index: 2;
     background-color: rgb(22, 78, 187);
     border-end-end-radius: 7000%;
     position: absolute;
@@ -193,6 +196,7 @@ ul {
     top: 0px;
     left: 0px;
 }
+
 #intro .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -207,34 +211,118 @@ ul {
     left: 0px;
 }
 
-#intro img {
-    z-index: 4;
+#intro_main {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     position: absolute;
-    top: -2%;
-    left: 9%;
-    min-width: 150px;
-    width: 700px;
+    width: 100%;
+    height: 700px;
+    /* background-color: palegreen; */
+    z-index: 4;
+}
+
+.intro_logo {
+    /* background-color: brown ; */
+    display: inline-block;
+    position: relative;
+    top: 4%;
+    left: 12%;
+    z-index: 4;
+}
+
+.intro_logo img {
+    width: 400px;
+}
+
+.intro_text {
+    /* background-color: tomato; */
+    display: inline-block;
+    position: absolute;
+    top: 17%;
+    right: 6%;
+}
+
+.intro_text_element {
+    /* background-color: black; */
+    z-index: 4;
+    margin-bottom: 7%;
+    /* width: 80%; */
 }
 
 #intro .intro_item1 {
-    position: absolute;
+    /* position: relative; */
+    /* background-color: yellow; */
     top: 6%;
     right: 29%;
-    z-index: 4;
+    display: inline-block;
 }
+
 #intro .intro_item2 {
-    position: absolute;
+    position: relative;
+    display: inline-block;
+    /* background-color: whitesmoke; */
     top: 4%;
-    right: 17%;
-    z-index: 4;
-    min-width: 7%;
+    right: -6%;
+    max-width: 1%;
 }
+
 #intro .intro_item3 {
-    position: absolute;
+    /* background-color: violet; */
+    display: inline-block;
+    position: relative;
     top: 9.8%;
-    right: 10.6%;
+    right: -4.5%;
+    /* z-index: 4; */
+    /* min-width: 11%; */
+}
+
+
+#intro_btn {
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    /* z-index: 20; */
+    /* height: 30px; */
+    width: 100%;
+}
+
+#whatsapp {
+    position: relative;
+    top: 16%;
+    left: 33%;
+    color: white;
+    min-width: 8.9%;
+    min-height: 1.8%;
+    border-radius: 100px;
+    border: 3px solid white;
+    font-size: 120%;
     z-index: 4;
-    min-width: 11%;
+    text-align: center;
+    padding: 7px 0px;
+    transition: background-color 0.42s;
+}
+
+#whatsapp:hover {
+    background-color: rgb(23, 84, 252);
+}
+
+#call_us {
+    position: relative;
+    top: 16%;
+    left: 21%;
+    color: white;
+    min-width: 8.9%;
+    min-height: 1.8%;
+    border-radius: 100px;
+    border: 3px solid white;
+    font-size: 120%;
+    z-index: 4;
+    text-align: center;
+    padding: 7px 0px;
+    transition: background-color 0.42s;
+}
+
+#call_us:hover {
+    background-color: rgb(23, 84, 252);
 }
 
 #intro .intro_item1 h1 {
@@ -242,16 +330,19 @@ ul {
     font-size: 250%;
     display: inline-block;
 }
+
 #intro .intro_item1 h2 {
     color: whitesmoke;
     font-size: 180%;
     display: inline-block;
 }
+
 #intro .intro_item1 h6 {
     color: whitesmoke;
     font-size: 600%;
-    margin-left: 4%;
+    /* margin-left: 4%; */
 }
+
 #intro .intro_item2 h3 {
     color: rgb(130, 174, 255);
     font-size: 200%;
@@ -260,60 +351,528 @@ ul {
     text-decoration-color: white;
     transform: rotate(270deg);
     transform-origin: left bottom;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
+
 #intro .intro_item3 h4 {
     color: whitesmoke;
     font-size: 100%;
 }
+
 #intro .intro_item3 h5 {
     color: whitesmoke;
     font-size: 210%;
     display: inline-block;
 }
 
-#whatsapp {
-    position: absolute;
-    top: 16%;
-    right: 21%;
-    color: white;
-    min-width: 8.9%;
-    min-height: 1.8%;
-    border-radius: 100px;
-    border: 3px solid white;
-    font-size: 120%;
-    z-index: 4;
-    text-align: center;
-    padding: 7px 0px;
-    transition: background-color 0.42s;
+@media (max-width: 1200px) {
+
+
+    .navbar .nav_list {
+        overflow: auto;
+        width: 70%;
+        position: absolute;
+        right: 22%;
+        /* left: 10%; */
+        padding: 1% 0.1%;
+        transition: width 0.5s;
+    }
+    
+    .navbar .nav_list:hover {
+        width: 38%;
+    }
+
+    .navbar .nav_logo {
+        overflow: auto;
+        position: relative;
+        top: 5%;
+        left: 80%;
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar .nav_logo img {
+        margin: 3px;
+        width: 59px;
+        height: auto;
+        transition: width 0.04s;
+    }
+    
+    .navbar .nav_logo img:hover {
+        margin: 2.4px;
+        width: 60px;
+    }
+    
+
+    
+    .intro_logo img {
+        width: 350px;
+    }
+
+    .intro_text {
+        /* background-color: tomato; */
+        top: 17%;
+        right: 6%;
+    }
+
+    #intro .intro_item1 h1 {
+        font-size: 230%;
+    }
+
+    #intro .intro_item1 h2 {
+        font-size: 110%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 530%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 130%;
+        /* margin-top: 150px; */
+    }
+
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 30%;
+    }
+
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 140%;
+        display: inline-block;
+    }
 }
-#whatsapp:hover {
-    background-color: rgb(23, 84, 252);
+
+@media (max-width: 920px) {
+    .intro_logo {
+        /* background-color: turquoise; */
+        position: absolute;
+        top: -5px;
+        /* left: 400px; */
+        left: 53%;
+    }
+
+    .intro_logo img {
+        width: 300px;
+    }
+
+    .intro_text {
+        /* background-color: tomato; */
+        top: 18%;
+        right: 6%;
+    }
+
+    #intro .intro_item1 h1 {
+        font-size: 360%;
+    }
+
+    #intro .intro_item1 h2 {
+        font-size: 240%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 660%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 260%;
+        /* margin-top: 150px; */
+    }
+
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 160%;
+    }
+
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 270%;
+        display: inline-block;
+    }
+
+    #whatsapp {
+        font-size: 130%;
+        padding: 2% 4%;
+        left: 33%;
+    }
+
+    #call_us {
+        font-size: 130%;
+        padding: 2% 4%;
+        left: 23%;
+    }
 }
 
-#call_us {
-    position: absolute;
-    top: 16%;
-    right: 33%;
-    color: white;
-    min-width: 8.9%;
-    min-height: 1.8%;
-    border-radius: 100px;
-    border: 3px solid white;
-    font-size: 120%;
-    z-index: 4;
-    text-align: center;
-    padding: 7px 0px;
-    transition: background-color 0.42s;
+@media (max-width: 820px) {
+    .intro_logo {
+        /* background-color: turquoise; */
+        position: absolute;
+        top: 0px;
+        /* left: 400px; */
+        left: 45%;
+    }
+
+    .intro_logo img {
+        width: 280px;
+    }
+
+    .intro_text {
+        /* background-color: tomato; */
+        top: 17%;
+        left: 10%;
+    }
+
+    .intro_text_element {
+        margin-bottom: 12%;
+    }
+
+    #intro .intro_item1 h1 {
+        font-size: 260%;
+    }
+
+    #intro .intro_item1 h2 {
+        font-size: 140%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 560%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 160%;
+        /* margin-top: 150px; */
+    }
+
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 60%;
+    }
+
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 170%;
+        display: inline-block;
+    }
+
+    #whatsapp {
+        font-size: 130%;
+        padding: 2% 4%;
+    }
+    
+    #call_us {
+        font-size: 130%;
+        padding: 2% 4%;
+    }
 }
-#call_us:hover {
-    background-color: rgb(23, 84, 252);
+
+@media (max-width: 720px) {
+
+
+    .navbar .nav_list {
+        overflow: auto;
+        width: 70%;
+        position: absolute;
+        right: 22%;
+        top: 9%;
+        /* left: 10%; */
+        padding: 1% 0.1%;
+        transition: width 0.5s;
+    }
+    
+    .navbar .nav_list:hover {
+        width: 38%;
+    }
+
+    .navbar .nav_logo {
+        overflow: auto;
+        position: relative;
+        top: 3%;
+        left: 80%;
+        width: 100%;
+        height: auto;
+    }
+    
+    .navbar .nav_logo img {
+        margin: 3px;
+        width: 59px;
+        height: auto;
+        transition: width 0.04s;
+    }
+    
+    .navbar .nav_logo img:hover {
+        margin: 2.4px;
+        width: 60px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.4s;
+        transition: font-size 0.4s;
+        font-size: 105%;
+    }
+    
+    .navbar li a:hover {
+        text-decoration: none;
+        font-size: 120%;
+        color: #99ccff;
+    }
+    
+
+    
+
+
+    .intro_logo {
+        /* background-color: turquoise; */
+        position: absolute;
+        top: 50px;
+        /* left: 400px; */
+        left: 48%;
+    }
+    
+    .intro_logo img {
+        width: 200px;
+    }
+    
+    .intro_text {
+        /* background-color: tomato; */
+        top: 17%;
+        left: 11%;
+    }
+    
+    
+    #intro .intro_item1 h1 {
+        font-size: 230%;
+    }
+    
+    #intro .intro_item1 h2 {
+        font-size: 110%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 530%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 130%;
+        /* margin-top: 150px; */
+    }
+    
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 50%;
+    }
+    
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 140%;
+        display: inline-block;
+    }
+    #whatsapp {
+        font-size: 130%;
+        padding: 2% 4%;
+        left: 29%;
+    }
+
+    #call_us {
+        font-size: 130%;
+        padding: 2% 4%;
+        left: 19%;
+    }
+
+
+
 }
 
+@media (max-width: 540px) {
+    .intro_logo {
+        /* background-color: turquoise; */
+        position: absolute;
+        top: 0px;
+        /* left: 400px; */
+        left: 26%;
+    }
 
+    .intro_logo img {
+        width: 230px;
+    }
 
+    .intro_text {
+        /* background-color: tomato; */
+        top: 26%;
+        /* left: 28%; */
+        /* width: 50%; */
+    }
 
+    #whatsapp {
+        font-size: 160%;
+        padding: 4%;
+    }
 
+    #call_us {
+        font-size: 160%;
+        padding: 4%;
+    }
+
+    #intro .intro_item1 h1 {
+        font-size: 230%;
+    }
+
+    #intro .intro_item1 h2 {
+        font-size: 110%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 530%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 130%;
+        /* margin-top: 150px; */
+    }
+
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 50%;
+    }
+
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 140%;
+        display: inline-block;
+    }
+    #whatsapp {
+        font-size: 110%;
+        padding: 2% 4%;
+        left: 26%;
+    }
+
+    #call_us {
+        font-size: 110%;
+        padding: 2% 4%;
+        left: 16%;
+    }
+}
+
+@media (max-width: 460px) {
+    .navbar .nav_list {
+        overflow: auto;
+        width: 100%;
+        position: absolute;
+        right: 0%;
+        top: 9%;
+        /* left: 10%; */
+        padding: 1% 0.1%;
+        transition: width 0.5s;
+    }
+    
+    .navbar .nav_list:hover {
+        width: 38%;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.4s;
+        transition: font-size 0.4s;
+        font-size: 85%;
+    }
+    
+    .navbar li a:hover {
+        text-decoration: none;
+        font-size: 100%;
+        color: #99ccff;
+    }
+    .navbar .nav_logo img {
+        margin: 3px;
+        width: 49px;
+        height: auto;
+        transition: width 0.04s;
+    }
+    
+    .navbar .nav_logo img:hover {
+        margin: 2.4px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+
+    .intro_logo img {
+        width: 200px;
+    }
+
+    .intro_text {
+        /* background-color: tomato; */
+        top: 26%;
+        /* right: -10px; */
+        left: 16%;
+        width: 70%;
+    }
+
+    #whatsapp {
+        font-size: 160%;
+        padding: 4%;
+    }
+
+    #call_us {
+        font-size: 160%;
+        padding: 4%;
+    }
+
+    #intro .intro_item1 h1 {
+        font-size: 230%;
+    }
+
+    #intro .intro_item1 h2 {
+        font-size: 110%;
+    }
+
+    #intro .intro_item1 h6 {
+        color: whitesmoke;
+        font-size: 530%;
+        /* margin-left: 4%; */
+    }
+
+    #intro .intro_item2 h3 {
+        font-size: 130%;
+        /* margin-top: 150px; */
+    }
+
+    #intro .intro_item3 h4 {
+        color: whitesmoke;
+        font-size: 50%;
+    }
+
+    #intro .intro_item3 h5 {
+        color: whitesmoke;
+        font-size: 140%;
+        display: inline-block;
+    }
+    #whatsapp {
+        font-size: 110%;
+        padding: 2% 4%;
+        left: 26%;
+    }
+
+    #call_us {
+        font-size: 110%;
+        padding: 2% 4%;
+        left: 16%;
+    }
+}
 
 
 #about_us0 {
@@ -335,6 +894,7 @@ ul {
     /* align-items: center; */
     /* padding-bottom: 10px; */
 }
+
 #services0 {
     min-width: 100%;
     padding-top: 50px;
@@ -343,6 +903,7 @@ ul {
     text-align: center;
     margin-top: -1%;
 }
+
 #services1 {
     min-width: 100%;
     min-height: 600px;
@@ -352,6 +913,7 @@ ul {
     background-color: #99ccff;
     /* align-items: center; */
 }
+
 #contact_us0 {
     min-width: 100%;
     padding-top: 50px;
@@ -385,6 +947,9 @@ ul {
     position: relative;
     left: 5%;
     /* top: -150px; */
+    width: 500px;
+    height: 340px;
+    border:0;
 }
 
 /* .map iframe {
@@ -392,10 +957,10 @@ ul {
     
 } */
 
-#contact_us .contact_details {
-    /* background-color: purple; */
+#contact_us1 .contact_details {
+    background-color: purple;
     min-width: 50%;
-    min-height: 600px;
+    min-height: 400px;
     display: inline-block;
     margin-left: 45px;
     position: relative;
@@ -411,3 +976,26 @@ ul {
     /* border: 3px red solid; */
 }
 
+@media (max-width: 1200px) {
+    #location_map {
+        border: 2px solid darkgrey;
+        position: relative;
+        left: 5%;
+        /* top: -150px; */
+        width: 400px;
+        height: 340px;
+        border:0;
+    }
+}
+
+@media (max-width: 480px) {
+    #location_map {
+        border: 2px solid darkgrey;
+        position: relative;
+        left: 15%;
+        /* top: -150px; */
+        width: 280px;
+        height: 260px;
+        border:0;
+    }
+}
