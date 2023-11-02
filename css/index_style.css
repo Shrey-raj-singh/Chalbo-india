@@ -1015,6 +1015,18 @@ ul {
     }
 }
 
+@media (max-width: 720px) {
+    #contact_us1 .contact_details {
+            background-color: white;
+            width: 84%;
+            min-height: 150px;
+            display: inline-block;
+            /* margin-left: 45px; */
+            position: relative;
+            top: 20px;
+            left: -3%;
+        }
+}
 @media (max-width: 480px) {
     #location_map {
        border: 2px solid darkgrey;
@@ -1024,16 +1036,5 @@ ul {
     width: 90%;
     height: 260px;
 /*     border: 0; */
-    }
-
-    #contact_us1 .contact_details {
-        background-color: white;
-        width: 84%;
-        min-height: 150px;
-        display: inline-block;
-        /* margin-left: 45px; */
-        position: relative;
-        top: 20px;
-        left: -3%;
     }
 }
