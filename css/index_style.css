@@ -1028,12 +1028,12 @@ ul {
 
     #contact_us1 .contact_details {
         background-color: white;
-        width: 89%;
+        width: 84%;
         min-height: 150px;
         display: inline-block;
         /* margin-left: 45px; */
         position: relative;
         top: 20px;
-        left: 0%;
+        left: -3%;
     }
 }
