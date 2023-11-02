@@ -1017,7 +1017,7 @@ ul {
 
 @media (max-width: 720px) {
     #contact_us1 .contact_details {
-            background-color: black;
+            background-color: white;
             width: 84%;
             min-height: 150px;
             display: inline-block;
@@ -1039,7 +1039,7 @@ ul {
     }
 
     #contact_us1 .contact_details {
-            background-color: pink;
+            background-color: white;
             width: 84%;
             min-height: 150px;
             display: inline-block;
