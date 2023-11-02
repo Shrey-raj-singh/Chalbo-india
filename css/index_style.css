@@ -875,7 +875,7 @@ ul {
 }
 
 
-#about_us0 {
+#about_us {
     min-width: 100%;
     padding-top: 50px;
     /* background-color: purple; */
@@ -895,7 +895,7 @@ ul {
     /* padding-bottom: 10px; */
 }
 
-#services0 {
+#services {
     min-width: 100%;
     padding-top: 50px;
     /* background-color: purple; */
@@ -914,7 +914,7 @@ ul {
     /* align-items: center; */
 }
 
-#contact_us0 {
+#contact_us {
     min-width: 100%;
     padding-top: 50px;
     /* background-color: purple; */
