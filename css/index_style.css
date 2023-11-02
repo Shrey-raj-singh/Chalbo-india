@@ -970,7 +970,7 @@ ul {
 } */
 
 #contact_us1 .contact_details {
-    background-color: purple;
+    /* background-color: purple; */
     min-width: 50%;
     min-height: 400px;
     display: inline-block;
