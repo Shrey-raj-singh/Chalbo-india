@@ -985,7 +985,7 @@ ul {
 } */
 
 #contact_us1 .contact_details {
-    background-color: purple;
+    background-color: white;
     min-width: 50%;
     min-height: 400px;
     display: inline-block;
@@ -1017,12 +1017,23 @@ ul {
 
 @media (max-width: 480px) {
     #location_map {
-        border: 2px solid darkgrey;
+       border: 2px solid darkgrey;
+    position: relative;
+    /* left: 15%; */
+    /* top: -150px; */
+    width: 90%;
+    height: 260px;
+/*     border: 0; */
+    }
+
+    #contact_us1 .contact_details {
+        background-color: white;
+        width: 89%;
+        min-height: 150px;
+        display: inline-block;
+        /* margin-left: 45px; */
         position: relative;
-        left: 15%;
-        /* top: -150px; */
-        width: 280px;
-        height: 260px;
-        border:0;
+        top: 20px;
+        left: 6%;
     }
 }
