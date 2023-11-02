@@ -447,6 +447,19 @@ ul {
 }
 
 @media (max-width: 920px) {
+        .navbar .nav_list {
+        overflow: auto;
+        width: 70%;
+        position: absolute;
+        right: 22%;
+        /* left: 10%; */
+        padding: 1% 0.1%;
+        transition: width 0.5s;
+    }
+    
+    .navbar .nav_list:hover {
+        width: 71%;
+    }
     .intro_logo {
         /* background-color: turquoise; */
         position: absolute;
@@ -509,6 +522,20 @@ ul {
 }
 
 @media (max-width: 820px) {
+        .navbar .nav_list {
+        overflow: auto;
+        width: 70%;
+        position: absolute;
+        right: 22%;
+        /* left: 10%; */
+        padding: 1% 0.1%;
+        transition: width 0.5s;
+    }
+    
+    .navbar .nav_list:hover {
+        width: 71%;
+    }
+    
     .intro_logo {
         /* background-color: turquoise; */
         position: absolute;
